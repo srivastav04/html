@@ -30,7 +30,7 @@ input{
     width:443px;
     border:1px;
     transition: all;
-    transition-duration:3s;
+    transition-duration:2s;
 }
 
 #lens,#camera,#mic{
