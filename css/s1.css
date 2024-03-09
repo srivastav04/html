@@ -1,0 +1,95 @@
+#main{
+    height:300px;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items:flex-end;
+}
+#image{
+    height:200px;
+    width:350px;    
+}
+
+img{
+    height:100%;
+    width:100%;
+}
+
+
+#bottom{
+    height:400px;
+}
+
+.searchbar{
+    height:35px;
+    display:flex;
+    justify-content: center;;
+}
+input{
+    height:100%;
+    width:443px;
+    border:1px;
+    transition: all;
+    transition-duration:3s;
+}
+
+#lens,#camera,#mic{
+    margin-left: 3px;
+    display: flex;
+    align-items: center;
+    background:white;
+}
+#lens{
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+
+}
+#camera{
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    margin-left: 13px;
+
+}
+
+.buttons{
+    margin-top:30px;
+    display:flex;
+    justify-content: center;
+    height:30px;
+}
+#space{
+    width:30px;
+}
+#button{
+    display:flex;
+    justify-content: space-evenly;
+}
+button{
+    border:none;
+    border-radius:4px;
+    width:150px;
+    transform: all;
+    transition-duration: 0.6s;
+
+}
+#lang{
+    display: flex;
+    margin-top:50px;
+    display:flex;
+    justify-content: center;
+}
+.space{
+    width:7px;
+}
+a{
+    color:rgb(46, 60, 164)
+}
+
+button:hover{
+    /* color:white;
+    background-color: aquamarine; */
+    border:1px solid;
+    border-color:black;
+    
+ 
+}
